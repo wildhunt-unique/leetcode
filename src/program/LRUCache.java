@@ -13,6 +13,9 @@ public class LRUCache {
     private LinkedList<Integer> queen;
     private Map<Integer, Integer> cache;
 
+    public static void main(String[] args) {
+        System.out.println(String.format("%x", 67111));
+    }
 
     public LRUCache(int max) {
         this.max = max;

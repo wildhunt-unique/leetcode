@@ -6,7 +6,7 @@ package base;
  */
 @SuppressWarnings("all")
 public class ListNode {
-    public int val;
+    public volatile int val;
     public ListNode next;
 
 
